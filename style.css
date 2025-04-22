@@ -6,7 +6,7 @@ body {
   padding-bottom: 80px; /* Room for footer */
   background-color: #fdfcf5; /* cream */
   color: #2f4f4f; /* dark sagey green */
-  background: #f2f1e9 url('images/monstera-border.png') no-repeat center center fixed;
+  background: #f2f1e9 url('images/plant-border.png') no-repeat center center fixed;
   background-size: cover;
 }
 
