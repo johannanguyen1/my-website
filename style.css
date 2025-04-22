@@ -10,6 +10,29 @@ body {
   background-size: cover;
 }
 
+.side-by-side {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .side-by-side img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .side-by-side figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #4b7054;
+    margin-top: 8px;
+  }
+  
 section {
     background-color: #f2f1e9; /* soft cream */
     border: 2px dashed #a2c2a2; /* sage green accent */
