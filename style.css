@@ -6,20 +6,16 @@ body {
   padding-bottom: 80px; /* Room for footer */
   background-color: #fdfcf5; /* cream */
   color: #2f4f4f; /* dark sagey green */
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 150px;
+  background: #f2f1e9 url('images/monstera-border.png') no-repeat center center fixed;
+  background-size: cover;
 }
+
 section {
     background-color: #f2f1e9; /* soft cream */
     border: 2px dashed #a2c2a2; /* sage green accent */
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 16px;
-    background-image: url('images/plant-border.png');
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 100px;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
   }  
 
